@@ -447,4 +447,22 @@ blockquote {
   line-height: 1.8rem;
   border-left: 3px solid #D0E5F2;
   font-size: 1.3rem;
-} 
+}
+
+.s-tag-caption {
+  border-bottom: 5px solid;
+  font-weight: 500;
+  margin: 0;
+  max-width: 100%;
+  padding: 0px 0 2px;
+}
+
+.s-tag-caption.do {
+  border-color: #4caf50;
+  color: #2e7b32;
+}
+
+.s-tag-caption.dont {
+  border-color: #d32f2f;
+  color: #d32f2f;
+}
