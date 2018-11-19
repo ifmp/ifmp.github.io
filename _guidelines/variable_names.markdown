@@ -11,12 +11,10 @@ A name is the result of a long deep thought process about the ecology it lives i
 
 <p class="s-tag-caption do">Good</p>
 ```c++
-// Compute b = a * 3 + c;
-int b = a * 3 + c;
+weekly_pay = hours_worked * hourly_pay_rate;
 ```
 
 <p class="s-tag-caption dont">Bad</p>
 ```c++
-// Compute b = a * 3 + c;
-int x1 = x2 * 3 + x3;
+a = b * c;
 ```
