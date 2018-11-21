@@ -4,13 +4,13 @@ title:  "Indentation"
 date: 2018-09-09 00:03:00 +0800
 ---
 
-Use consistent indendation (typically 2, 3 or 4 spaces).
+Use consistent indentation (typically 2 spaces).
 If the indenting level is more than 4 or 5 levels you may think about factoring out code.
 
 <p class="s-tag-caption do">Good</p>
 ```c++
-if (something bad) {
-    if (another thing bad) {
+if (some_check) {
+    if (some_other_check) {
         while (more input) {
         }
     }
@@ -19,8 +19,8 @@ if (something bad) {
 
 <p class="s-tag-caption dont">Bad</p>
 ```c++
-if (something bad) {
-if (another thing bad) {
+if (some_check) {
+if (some_other_check) {
 while (more input) {
 }
 }
