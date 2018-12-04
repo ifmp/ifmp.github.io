@@ -1,7 +1,7 @@
 
-# C Style Guide
+# C++ Style Guide
 
-This document describes recommended coding standard for writing C programs.
+This document describes recommended coding standard for writing C++ programs.
 It is developed as additional learning material for [Informatik fur Mathematiker und Physiker](https://lec.inf.ethz.ch/ifmp/2018/) course taught at [ETH Zurich](https://www.inf.ethz.ch/).
 
 
