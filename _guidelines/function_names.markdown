@@ -19,21 +19,21 @@ Prefixes are sometimes useful:
 <p class="s-tag-caption do">Good</p>
 ```c++
 bool is_even(unsigned int i) {
-    if (i % 2 == 0) return true;
+  if (i % 2 == 0) return true;
 }
 
 bool is_odd(unsigned int i) {
-    if (i % 2 == 1) return true;
+  if (i % 2 == 1) return true;
 }
 ```
 
 <p class="s-tag-caption dont">Bad</p>
 ```c++
 bool helper1(unsigned int i) {
-    if (i % 2 == 0) return true;
+  if (i % 2 == 0) return true;
 }
 
 bool helper2(unsigned int i) {
-    if (i % 2 == 1) return true;
+  if (i % 2 == 1) return true;
 }
 ```

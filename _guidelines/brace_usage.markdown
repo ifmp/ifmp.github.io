@@ -10,7 +10,7 @@ It ensures that when someone adds a line of code later there are already braces 
 <p class="s-tag-caption do">Good</p>
 ```c++
 if (condition) {
-    return 0;
+  return 0;
 }
 ```
 
@@ -24,7 +24,7 @@ To illustrate what can go wrong consider an example shown below which does not u
 <p class="s-tag-caption dont">Bad</p>
 ```c++
 if (condition)
-    ++i;
+  ++i;
 ```
 
 The code can be later modified by adding more statements in the if condition but forgetting to put the braces.
@@ -32,8 +32,8 @@ The code can be later modified by adding more statements in the if condition but
 <p class="s-tag-caption dont">Bad</p>
 ```c++
 if (condition)
-    ++j;
-    ++i; // misleading. Seems like it's executed when the conditions is true
+  ++j;
+  ++i; // misleading. Seems like it's executed when the conditions is true
 ```
 
 By mistake, the code is now executing `++i` every time, even when the `condition` is false.
@@ -43,7 +43,7 @@ As a result, the above code is equivalent to:
 <p class="s-tag-caption do">Good</p>
 ```c++
 if (condition) {
-    ++j;
+  ++j;
 }
 ++i;
 ```

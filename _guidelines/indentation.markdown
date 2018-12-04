@@ -10,10 +10,10 @@ If the indenting level is more than 4 or 5 levels you may think about factoring 
 <p class="s-tag-caption do">Good</p>
 ```c++
 if (some_check) {
-    if (some_other_check) {
-        while (more input) {
-        }
+  if (some_other_check) {
+    while (more input) {
     }
+  }
 }
 ```
 

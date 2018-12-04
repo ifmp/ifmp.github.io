@@ -10,10 +10,10 @@ There are two major brace placement strategies that are acceptable:
 
 <p class="s-tag-caption do">Good</p>
 ```c++
-    if (condition)
-    {
+  if (condition)
+  {
 
-    }
+  }
 ```
 
 {:start="2"}
@@ -21,9 +21,9 @@ There are two major brace placement strategies that are acceptable:
 
 <p class="s-tag-caption do">Good</p>
 ```c++
-    if (condition) {
+  if (condition) {
 
-    }
+  }
 ```
 
 You can choose either of the two strategies shown above. However, you should be consistent in using one strategy and not mix them together.

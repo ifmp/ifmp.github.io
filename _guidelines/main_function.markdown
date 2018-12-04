@@ -12,14 +12,14 @@ The most common convention is simply 0 for success and 1 for failure.
 <p class="s-tag-caption do">Good</p>
 ```c++
 int main() {
-    // perform computation
+  // perform computation
 
-    if (is_error) {
-      // unsuccessful program completion
-      return 1;
-    }
+  if (is_error) {
+    // unsuccessful program completion
+    return 1;
+  }
 
-    // program completed successfully
-    return 0;
+  // program completed successfully
+  return 0;
 }
 ```
